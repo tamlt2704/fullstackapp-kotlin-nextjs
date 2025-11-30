@@ -1,4 +1,4 @@
-package org.example
+package org.example.controller
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
@@ -7,12 +7,8 @@ import org.springframework.web.bind.annotation.RestController
 class HelloController {
 
     @GetMapping("/")
-    fun home(): String {
-        return "Hello World!"
-    }
+    fun home(): String = "Hello World!"
 
     @GetMapping("/hello")
-    fun hello(): String {
-        return "Hello World!"
-    }
+    fun hello(): String = "Hello World!"
 }
