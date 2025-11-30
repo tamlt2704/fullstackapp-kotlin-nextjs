@@ -63,11 +63,7 @@ export default function AdminPage() {
           ))}
         </tbody>
       </table>
-      <div style={{ marginTop: '20px' }}>
-        <a href="/" style={{ color: 'blue', textDecoration: 'underline' }}>
-          Back to Home
-        </a>
-      </div>
+
     </div>
   )
 }

@@ -100,20 +100,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Admin Link */}
-      <div style={{ textAlign: 'center', marginTop: '40px' }}>
-        <a href="/admin" style={{ color: '#666', textDecoration: 'underline', fontSize: '14px' }}>
-          Admin Dashboard
-        </a>
-        <span style={{ margin: '0 10px', color: '#ccc' }}>|</span>
-        <a href="/auth" style={{ color: '#666', textDecoration: 'underline', fontSize: '14px' }}>
-          Authentication Demo
-        </a>
-        <span style={{ margin: '0 10px', color: '#ccc' }}>|</span>
-        <a href="/blog" style={{ color: '#666', textDecoration: 'underline', fontSize: '14px' }}>
-          Blog
-        </a>
-      </div>
+
     </div>
   )
 }

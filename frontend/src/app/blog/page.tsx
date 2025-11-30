@@ -30,11 +30,7 @@ export default function BlogPage() {
       padding: '20px',
       lineHeight: '1.6'
     }}>
-      <div style={{ marginBottom: '20px' }}>
-        <a href="/" style={{ color: '#0070f3', textDecoration: 'none' }}>
-          ← Back to Portfolio
-        </a>
-      </div>
+
       
       <article style={{
         fontSize: '16px',

@@ -65,11 +65,7 @@ export default function AuthPage() {
         Switch to {isLogin ? 'Register' : 'Login'}
       </button>
       {message && <p style={{ marginTop: '10px' }}>{message}</p>}
-      <div style={{ marginTop: '20px', textAlign: 'center' }}>
-        <a href="/" style={{ color: 'blue', textDecoration: 'underline' }}>
-          Back to Portfolio
-        </a>
-      </div>
+
     </div>
   )
 }
