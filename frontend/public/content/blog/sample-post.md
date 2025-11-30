@@ -1,6 +1,13 @@
+---
+title: "Building Full Stack Applications with Kotlin and Next.js"
+date: "2024-12-02"
+category: "Full Stack"
+tags: ["Kotlin", "Next.js", "Spring Boot", "React"]
+---
+
 # Building Full Stack Applications with Kotlin and Next.js
 
-*Published on December 2024*
+*Published on December 2, 2024*
 
 ## Introduction
 
