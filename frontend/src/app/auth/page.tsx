@@ -18,8 +18,15 @@ export default function AuthPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password })
       })
-      const result = await response.text()
-      setMessage(result)
+      const result = await response.json()
+      
+      if (result.success && result.token) {
+        localStorage.setItem('token', result.token)
+        localStorage.setItem('role', result.role)
+        setMessage(`${result.message} - Token saved!`)
+      } else {
+        setMessage(result.message)
+      }
     } catch (error) {
       setMessage('Error occurred')
     }

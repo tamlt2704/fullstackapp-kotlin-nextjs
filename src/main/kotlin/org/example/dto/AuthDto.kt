@@ -12,5 +12,7 @@ data class LoginRequest(
 
 data class AuthResponse(
     val message: String,
-    val success: Boolean = true
+    val success: Boolean = true,
+    val token: String? = null,
+    val role: String? = null
 )

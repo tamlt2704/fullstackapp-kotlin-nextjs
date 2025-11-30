@@ -18,7 +18,19 @@ export default function AdminPage() {
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch('/api/admin/users')
+      const token = localStorage.getItem('token')
+      const response = await fetch('/api/admin/users', {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      })
+      
+      if (response.status === 403) {
+        setUsers([])
+        console.error('Access denied - Admin role required')
+        return
+      }
+      
       const data = await response.json()
       setUsers(data)
     } catch (error) {

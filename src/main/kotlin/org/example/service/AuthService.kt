@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service
 @Service
 class AuthService(
     private val userRepository: UserRepository,
-    private val passwordEncoder: PasswordEncoder
+    private val passwordEncoder: PasswordEncoder,
+    private val jwtService: JwtService
 ) {
 
     fun register(request: RegisterRequest): AuthResponse {
@@ -38,6 +39,11 @@ class AuthService(
             return AuthResponse("Invalid credentials", false)
         }
         
-        return AuthResponse("Login successful")
+        val token = jwtService.generateToken(user.username, user.role.name)
+        return AuthResponse(
+            message = "Login successful",
+            token = token,
+            role = user.role.name
+        )
     }
 }
