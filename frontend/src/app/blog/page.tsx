@@ -23,7 +23,18 @@ export default function BlogPage() {
     'sample-post.md',
     'react-hooks-guide.md', 
     'spring-boot-security.md',
-    'database-design-tips.md'
+    'database-design-tips.md',
+    'aws-cloud-practitioner-notes.md',
+    'aws-cloud-practitioner-complete-guide.md',
+    'react-nextjs-senior-developer-guide.md',
+    'postgresql-complete-guide.md',
+    'system-design-complete-guide.md',
+    'java-concurrency-guide.md',
+    'kotlin-concurrency-guide.md',
+    'd3js-geospatial-guide.md',
+    'docker-kubernetes-guide.md',
+    'kotlin-everyday-tasks.md',
+    'kotlin-competitive-programming.md'
   ]
 
   useEffect(() => {
