@@ -58,6 +58,11 @@ export default function Home() {
         Switch to {isLogin ? 'Register' : 'Login'}
       </button>
       {message && <p style={{ marginTop: '10px' }}>{message}</p>}
+      <div style={{ marginTop: '20px' }}>
+        <a href="/admin" style={{ color: 'blue', textDecoration: 'underline' }}>
+          Admin Page
+        </a>
+      </div>
     </div>
   )
 }

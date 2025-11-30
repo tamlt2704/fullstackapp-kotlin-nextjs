@@ -19,6 +19,7 @@ class SecurityConfig {
             .authorizeHttpRequests { auth ->
                 auth
                     .requestMatchers("/api/auth/**", "/hello", "/").permitAll()
+                    .requestMatchers("/api/admin/**").permitAll()
                     .anyRequest().authenticated()
             }
         return http.build()

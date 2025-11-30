@@ -20,10 +20,11 @@ class AuthService(
             return AuthResponse("Username already exists", false)
         }
         
+        val isFirstUser = userRepository.count() == 0L
         val user = User(
             username = request.username,
             password = passwordEncoder.encode(request.password),
-            role = Role.USER
+            role = if (isFirstUser) Role.ADMIN else Role.USER
         )
         userRepository.save(user)
         return AuthResponse("User registered successfully")
