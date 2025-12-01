@@ -24,6 +24,7 @@ export default function BlogPage() {
     'react-hooks-guide.md',
     'react-nextjs-senior-developer-guide.md',
     'kotlin-complete-guide.md',
+    'java-streams-data-structures-guide.md',
     'kotlin-concurrency-guide.md',
     'kotlin-everyday-tasks.md',
     'kotlin-competitive-programming.md',
@@ -36,7 +37,11 @@ export default function BlogPage() {
     // Backend & Frameworks
     'spring-boot-security.md',
     'spring-integration-guide.md',
+    'spring-testing-advanced-guide.md',
     'SPRING_CLOUD_KOTLIN_GUIDE.md',
+    
+    // Testing & Automation
+    'playwright-typescript-complete-guide.md',
     
     // Database & System Design
     'database-design-tips.md',
@@ -47,6 +52,8 @@ export default function BlogPage() {
     'aws-cloud-practitioner-notes.md',
     'aws-cloud-practitioner-complete-guide.md',
     'aws-cloud-practitioner-exam-guide.md',
+    'aws-cloud-practitioner-practice-exams-index.md',
+    'aws-cloud-practitioner-practice-exam-1.md',
     'docker-kubernetes-guide.md',
     'gradle-complete-guide.md',
     'github-workflows-guide.md',
@@ -55,6 +62,10 @@ export default function BlogPage() {
     // Data & Visualization
     'd3js-geospatial-guide.md',
     'nextjs-complete-guide.md',
+    'jmathanim-animation-guide.md',
+    'nextjs-tailwind-dark-mode-guide.md',
+    'tailwind-responsive-design-guide.md',
+    'shadcn-ui-complete-guide.md',
     
     // Algorithms & Problem Solving
     'leetcode-collections.md',
