@@ -20,21 +20,59 @@ export default function BlogPage() {
   const [loading, setLoading] = useState(true)
 
   const blogFiles = [
-    'sample-post.md',
-    'react-hooks-guide.md', 
-    'spring-boot-security.md',
-    'database-design-tips.md',
-    'aws-cloud-practitioner-notes.md',
-    'aws-cloud-practitioner-complete-guide.md',
+    // Programming Guides
+    'react-hooks-guide.md',
     'react-nextjs-senior-developer-guide.md',
+    'kotlin-complete-guide.md',
+    'kotlin-concurrency-guide.md',
+    'kotlin-everyday-tasks.md',
+    'kotlin-competitive-programming.md',
+    'kotlin-dataframe-letsplot-guide.md',
+    'kotlin-javascript-interop-guide.md',
+    'kotlin-ai-agent-building-guide.md',
+    'java-concurrency-guide.md',
+    'java-jpa-persistence-guide.md',
+    
+    // Backend & Frameworks
+    'spring-boot-security.md',
+    'spring-integration-guide.md',
+    'SPRING_CLOUD_KOTLIN_GUIDE.md',
+    
+    // Database & System Design
+    'database-design-tips.md',
     'postgresql-complete-guide.md',
     'system-design-complete-guide.md',
-    'java-concurrency-guide.md',
-    'kotlin-concurrency-guide.md',
-    'd3js-geospatial-guide.md',
+    
+    // DevOps & Cloud
+    'aws-cloud-practitioner-notes.md',
+    'aws-cloud-practitioner-complete-guide.md',
+    'aws-cloud-practitioner-exam-guide.md',
     'docker-kubernetes-guide.md',
-    'kotlin-everyday-tasks.md',
-    'kotlin-competitive-programming.md'
+    'gradle-complete-guide.md',
+    'github-workflows-guide.md',
+    'gitlab-ci-complete-guide.md',
+    
+    // Data & Visualization
+    'd3js-geospatial-guide.md',
+    'nextjs-complete-guide.md',
+    
+    // Algorithms & Problem Solving
+    'leetcode-collections.md',
+    'leetcode-500-problems-guide.md',
+    'leetcode-medium-hard-problems.md',
+    'LEETCODE-GUIDE-README.md',
+    'linear-programming-lpsolve-guide.md',
+    
+    // Language Learning
+    'chinese-hsk1-complete-guide.md',
+    'chinese-hsk2-complete-guide.md',
+    'chinese-hsk3-complete-guide.md',
+    'chinese-hsk4-complete-guide.md',
+    'chinese-hsk5-complete-guide.md',
+    'chinese-hsk6-complete-guide.md',
+    
+    // Sample
+    'sample-post.md'
   ]
 
   useEffect(() => {
