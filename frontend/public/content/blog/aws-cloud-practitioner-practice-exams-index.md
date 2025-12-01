@@ -9,7 +9,13 @@ tags: ["AWS", "Cloud Practitioner", "Certification", "Practice Exams", "Study Gu
 
 ## Overview
 
-Complete collection of 1000+ practice questions for AWS Cloud Practitioner certification, organized into 15+ practice exams matching the real exam format (65 questions each).
+Complete collection of 975 practice questions for AWS Cloud Practitioner certification, organized into 15 practice exams. Each exam contains exactly 65 questions covering all exam domains, matching the real exam format.
+
+**Each exam covers:**
+- Cloud Concepts (26%) - ~17 questions
+- Security and Compliance (25%) - ~16 questions  
+- Technology (33%) - ~22 questions
+- Billing and Pricing (16%) - ~10 questions
 
 **Real Exam Details:**
 - **Questions:** 65 questions
@@ -49,117 +55,110 @@ Each practice exam contains 65 questions covering all exam domains:
 
 ## Available Practice Exams
 
-### Exam 1: Fundamentals (Questions 1-65)
-**Focus:** Core services, basic concepts, IAM, S3, EC2
-- Covers fundamental AWS services
-- Basic security concepts
-- Pricing models
+### Exam 1: Mixed Topics (Questions 1-65)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Core AWS services (EC2, S3, RDS, VPC)
+- IAM and security fundamentals
+- Pricing models and cost optimization
 - [Start Exam 1](./aws-cloud-practitioner-practice-exam-1.md)
 
-### Exam 2: Compute & Storage (Questions 66-130)
-**Focus:** EC2, Lambda, EBS, EFS, Storage Gateway
-- Compute service deep dive
-- Storage options and use cases
-- Backup and disaster recovery
-- [Start Exam 2](#)
+### Exam 2: Mixed Topics (Questions 66-130)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Compute and storage services
+- Database and analytics
+- Networking and content delivery
+- [Start Exam 2](./aws-cloud-practitioner-practice-exam-2.md)
 
-### Exam 3: Database & Analytics (Questions 131-195)
-**Focus:** RDS, DynamoDB, Redshift, Athena, Glue
-- Database services comparison
-- Analytics and data processing
-- Migration strategies
-- [Start Exam 3](#)
+### Exam 3: Mixed Topics (Questions 131-195)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Database services (RDS, DynamoDB, Redshift)
+- Analytics services (Athena, EMR, Kinesis)
+- Security and compliance
+- [Start Exam 3](./aws-cloud-practitioner-practice-exam-3.md)
 
-### Exam 4: Networking & Content Delivery (Questions 196-260)
-**Focus:** VPC, CloudFront, Route 53, Direct Connect
-- Networking fundamentals
-- CDN and edge locations
-- Hybrid connectivity
-- [Start Exam 4](#)
+### Exam 4: Mixed Topics (Questions 196-260)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- VPC and networking fundamentals
+- CloudFront and Route 53
+- Direct Connect and hybrid connectivity
+- [Start Exam 4](./aws-cloud-practitioner-practice-exam-4.md)
 
-### Exam 5: Security & Identity (Questions 261-325)
-**Focus:** IAM, KMS, Secrets Manager, GuardDuty, Shield
-- Identity and access management
-- Encryption and key management
-- Threat detection and protection
-- [Start Exam 5](#)
+### Exam 5: Mixed Topics (Questions 261-325)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- IAM, KMS, and encryption
+- GuardDuty, Shield, and threat detection
+- Compliance and governance
+- [Start Exam 5](./aws-cloud-practitioner-practice-exam-5.md)
 
-### Exam 6: Management & Governance (Questions 326-390)
-**Focus:** CloudWatch, CloudTrail, Config, Systems Manager
-- Monitoring and logging
-- Resource management
-- Compliance and auditing
-- [Start Exam 6](#)
+### Exam 6: Mixed Topics (Questions 326-390)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- CloudWatch, CloudTrail, and monitoring
+- Systems Manager and automation
+- Organizations and governance
+- [Start Exam 6](./aws-cloud-practitioner-practice-exam-6.md)
 
-### Exam 7: Application Integration (Questions 391-455)
-**Focus:** SQS, SNS, EventBridge, Step Functions
-- Messaging services
-- Event-driven architecture
+### Exam 7: Mixed Topics (Questions 391-455)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Application integration (SQS, SNS, EventBridge)
 - Workflow orchestration
-- [Start Exam 7](#)
+- Core services review
+- [Start Exam 7](./aws-cloud-practitioner-practice-exam-7.md)
 
-### Exam 8: Developer Tools (Questions 456-520)
-**Focus:** CodeCommit, CodeBuild, CodeDeploy, CodePipeline
-- CI/CD pipelines
-- Source control
-- Deployment automation
-- [Start Exam 8](#)
+### Exam 8: Mixed Topics (Questions 456-520)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Developer tools and CI/CD
+- CodePipeline and deployment
+- Core services review
+- [Start Exam 8](./aws-cloud-practitioner-practice-exam-8.md)
 
-### Exam 9: Machine Learning & AI (Questions 521-585)
-**Focus:** SageMaker, Rekognition, Comprehend, Lex
-- ML services overview
+### Exam 9: Mixed Topics (Questions 521-585)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Machine Learning services
 - AI-powered services
-- Use cases and applications
-- [Start Exam 9](#)
+- Core services review
+- [Start Exam 9](./aws-cloud-practitioner-practice-exam-9.md)
 
-### Exam 10: Migration & Transfer (Questions 586-650)
-**Focus:** DMS, Snow Family, DataSync, Transfer Family
-- Migration strategies
-- Data transfer methods
-- Hybrid cloud solutions
-- [Start Exam 10](#)
+### Exam 10: Mixed Topics (Questions 586-650)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Migration strategies and tools
+- Snow Family and data transfer
+- Core services review
+- [Start Exam 10](./aws-cloud-practitioner-practice-exam-10.md)
 
-### Exam 11: Cost Optimization (Questions 651-715)
-**Focus:** Pricing models, Cost Explorer, Budgets, Trusted Advisor
-- Cost management tools
-- Pricing calculators
-- Reserved instances vs Spot
-- [Start Exam 11](#)
+### Exam 11: Mixed Topics (Questions 651-715)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Cost optimization and management
+- Pricing models and calculators
+- Core services review
+- [Start Exam 11](./aws-cloud-practitioner-practice-exam-11.md)
 
-### Exam 12: Architecture Best Practices (Questions 716-780)
-**Focus:** Well-Architected Framework, design patterns
-- 6 pillars of Well-Architected
-- High availability design
-- Scalability patterns
-- [Start Exam 12](#)
+### Exam 12: Mixed Topics (Questions 716-780)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Well-Architected Framework
+- Architecture best practices
+- Core services review
+- [Start Exam 12](./aws-cloud-practitioner-practice-exam-12.md)
 
-### Exam 13: Containers & Serverless (Questions 781-845)
-**Focus:** ECS, EKS, Fargate, Lambda, App Runner
-- Container orchestration
-- Serverless architectures
-- Microservices patterns
-- [Start Exam 13](#)
+### Exam 13: Mixed Topics (Questions 781-845)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Containers and serverless
+- ECS, EKS, Fargate, Lambda
+- Core services review
+- [Start Exam 13](./aws-cloud-practitioner-practice-exam-13.md)
 
-### Exam 14: Edge & IoT (Questions 846-910)
-**Focus:** CloudFront, Lambda@Edge, IoT Core, Greengrass
-- Edge computing
-- IoT services
-- Content delivery optimization
-- [Start Exam 14](#)
+### Exam 14: Mixed Topics (Questions 846-910)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Edge computing and IoT
+- CloudFront and Lambda@Edge
+- Core services review
+- [Start Exam 14](./aws-cloud-practitioner-practice-exam-14.md)
 
 ### Exam 15: Mixed Topics & Scenarios (Questions 911-975)
-**Focus:** Real-world scenarios, mixed services
-- Complex multi-service scenarios
-- Best practice recommendations
-- Troubleshooting questions
-- [Start Exam 15](#)
-
-### Exam 16: Final Review (Questions 976-1040)
-**Focus:** Comprehensive review of all topics
-- High-difficulty questions
-- Tricky scenarios
-- Exam simulation
-- [Start Exam 16](#)
+**All Domains:** Cloud Concepts (26%), Security (25%), Technology (33%), Billing (16%)
+- Real-world scenarios
+- Multi-service solutions
+- Comprehensive review
+- [Start Exam 15](./aws-cloud-practitioner-practice-exam-15.md)
 
 ## Study Strategy
 
