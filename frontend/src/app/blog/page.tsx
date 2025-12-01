@@ -95,6 +95,11 @@ export default function BlogPage() {
     'chinese-hsk4-complete-guide.md',
     'chinese-hsk5-complete-guide.md',
     'chinese-hsk6-complete-guide.md',
+    'hsk1-practice-test-1.md',
+    'hsk1-practice-test-2.md',
+    'hsk1-practice-test-3.md',
+    'hsk1-practice-test-4.md',
+    'hsk1-practice-test-5.md',
     
     // Sample
     'sample-post.md'

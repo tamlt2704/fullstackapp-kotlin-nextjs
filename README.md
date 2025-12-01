@@ -23,3 +23,8 @@ Runs on http://localhost:3000
 - Role-based authentication (USER, ADMIN)
 - H2 in-memory database
 - API proxy from frontend to backend
+
+
+android kotlin compose
+android korge game
+git usage
