@@ -28,3 +28,8 @@ Runs on http://localhost:3000
 android kotlin compose
 android korge game
 git usage
+java interview question for senior using backend spring 
+kotlin interview question for senior using backend spring 
+system design interview question for senior backend engineer focus on scalable and data integrity, involved in caching, microsservice, kafka, redis with code example in kotlin
+manim
+spring boot microservices
